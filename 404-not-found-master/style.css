@@ -10,7 +10,8 @@ body {
 p {
     font-size: 1.125rem;
     font-weight: 400;
-    width: 65%;
+    width: 100%;
+    margin: 2rem 0;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h2 {
 a {
   font-size: 0.875rem;
   display: inline-block;
-  width: 36.8%;
+  width: 200px;
   text-transform: uppercase;
   background:#333333;
   color: #fff;
@@ -49,7 +50,7 @@ a:hover, a:focus {
   padding: 0.75rem;
   display: flex;
   flex-direction: column;
-  margin-top: 6.5rem;
+  margin-top: 4.16rem;
   min-width: 350px;
 }
 
@@ -60,7 +61,7 @@ a:hover, a:focus {
 }
 
 
-@media(min-width: 650px) {
+@media(min-width: 700px) {
 
   .container {
     display: grid;
@@ -72,9 +73,10 @@ a:hover, a:focus {
 
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    
+    width: 368px;
+    max-width: 80%;
   }
 
   h1 {
@@ -83,14 +85,12 @@ a:hover, a:focus {
   }
 
   h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
   }
 
-}
-
-@media(min-width: 1000px) {
-  html {
-    font-size: 16px;
+  a {
+    max-width: 50%;
   }
+
 }
