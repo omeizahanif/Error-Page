@@ -1,10 +1,9 @@
-
 body {
     font-family: "Poppins", sans-serif;
-    height: 50vh;
     margin: 0;
-    padding: 1.5rem;
+    padding: 1rem;
     box-sizing: border-box;
+    
 }
 
 p {
@@ -31,6 +30,11 @@ h2 {
 }
 
 a {
+  text-decoration: none;
+  color: green;
+  font-weight: 700;
+}
+.cta {
   font-size: 0.875rem;
   display: inline-block;
   width: 200px;
@@ -39,26 +43,30 @@ a {
   color: #fff;
   padding: 1rem 2rem;
   text-align: center;
-  text-decoration: none;
+  
 }
 
-a:hover, a:focus {
+.cta:hover, .cta:focus {
   background:#222121;
-  color: #fff;
+  color: greenyellow;
 }
 
 .container {
   padding: 0.75rem;
   display: flex;
   flex-direction: column;
-  margin-top: 4.16rem;
+  margin: 1rem auto;
   min-width: 350px;
+
 }
-
-
 
 .image-block img {
   width: 100%;
+}
+
+footer {
+  text-align: center;
+  font-size: .8rem;
 }
 
 
@@ -69,7 +77,7 @@ a:hover, a:focus {
     max-width: 1244px;
     grid-template-columns: 43.34% 47.1%;
     column-gap: 9.7%;
-    margin-top: 7rem;
+    margin-top: 3rem;
   }
 
 
